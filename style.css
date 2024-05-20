@@ -376,6 +376,7 @@ footer p{
         font-size: 20px;
         padding-left: 30px;
         line-height: 80px;
+        font-weight: bolder;
     }
     nav ul li a{
         font-size: 16px;
