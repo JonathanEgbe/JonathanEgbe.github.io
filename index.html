@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.js">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- Navigation Bar -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class='bx bx-menu'></i>
+        </label>
+        <label class="logo">JONATHAN EGBE</label>
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a class="active" href="#about">About</a></li>
+          <li><a class="active" href="#projects">Projects</a></li>
+          <li><a class="active" href="#skills">Skills</a></li>
+          <li><a class="active" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content"><br>
+            <h1>Welcome to My Portfolio</h1>
+            <p>Showcasing my skills and projects</p>
+            <div class="home-sci">
+                <a href="https://www.facebook.com/share/whG4sRZ9p6G8wQzN/?mibextid=qi2Omg"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/thejonathangoodnews?igsh=Zmp0bXJmc3V1MmJ3"><i class='bx bxl-instagram'></i></a>
+                <a href="https://wa.me/qr/PKAK5YLQQVIMD1"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="https://www.linkedin.com/"><i class='bx bxl-linkedin' ></i></a>
+            </div><br>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+    </section>
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Hello! I'm Jonathan, a passionate and driven computer science student with a love for innovation and creativity. With a 
+            strong foundation in programming and software development, I'm dedicated to harnessing technology to make a positive impact in the world.
+            As a curious and lifelong learner, I'm always seeking new challenges and opportunities to grow. My interests span a wide range of topics, 
+            from artificial intelligence and machine learning to web development and user experience design. I'm excited to share my projects and
+            experiences with you, and demonstrate my ability to think critically, code creatively, and collaborate effectively.
+            Throughout my academic journey, I've had the privilege of working on a variety of projects, from solo endeavors to team collaborations. 
+            My portfolio showcases my best work, highlighting my skills in: HTML, Css and JavaScript
+                I'm excited to connect with like-minded individuals and explore opportunities in the tech industry. If you'd like to learn more about my work or collaborate on a project, please don't hesitate to reach out!
+            </p>
+        </div>
+    </section>
+        <!-- skill section-->
+    <section id="skills" class="skills">
+        <div class="skills-content">
+            <h1>Skills And Experience</h2>
+            <h3>Skills</h3>
+            <h3>Frontend</h3>
+
+            <p>HTML</p>
+            <div class="container">
+                <div class="skills html">90%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="container">
+                <div class="skills css">80%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skills js">65%</div>
+            </div>
+            
+            <h3>Experience</h3>
+             <h3>Jnr Frontend Devaeloper at New Horizons ICT
+                 Resource Center</h3>       
+            <h5>Responsibilities:</h5>
+                <div>    
+                    <li>1. Assist in Software Development: Assist in the design, development, testing, and 
+                        deployment of software applications, under the guidance of senior developers.</li>
+                    <li>2.Code Writing and Review: Write clean, efficient, and well-documented code in 
+                        various programming languages, and participate in code reviews to ensure high-quality code.</li>
+                    <li>3.Debugging and Troubleshooting: Identify and fix errors, bugs, and issues in software applications, 
+                            and troubleshoot technical problems.</li>
+                    <li>4.Collaboration and Communication: Work collaboratively with senior developers, designers, and project 
+                            managers to ensure effective communication and successful project delivery.</li>
+                    <li>5.Learning and Development: Continuously learn and improve skills in software development, stay up-to-date 
+                            with industry trends and best practices, and apply this knowledge to improve work performance.</li>
+                    <li>6. Support and Maintenance: Assist in maintaining and updating existing software applications, ensuring 
+                            their stability and performance.</li>
+                    <li>7. Testing and Quality Assurance: Write unit tests, integrate testing frameworks, and ensure high-quality 
+                            code to meet the organization's quality standards.</li>
+                    <li>8. Documentation and Reporting: Maintain accurate and up-to-date documentation of code, components, and 
+                            development processes, and provide regular progress reports to the team lead.</li>
+                    <li>9. Adhere to Best Practices: Follow the organization's development standards, best practices, and coding
+                             guidelines to ensure consistency and quality in software development.</li>
+                    <li>10. Other Tasks: Perform other tasks and responsibilities as assigned by the team lead or senior developers,
+                             to support the organization's goals and objectives.</li>   
+                </div>   
+        </div>
+    </section>
+            <!-- Projects Section -->
+
+    <section id="projects" class="projects">
+        <h2>PROJECTS</h2>
+        <div class="project-grid" >
+        <!-- Project Cards will be populated dynamically-->
+            <div id="containers">
+                <div class="project-info">
+                    <a href="Tip Calculator Project details.html">
+                        <img src="tip calculator.jpg"  width="px" alt="tip calculator project" >
+                    </a>
+                    <div class="desc">
+                        <h2>Tip Calculator Project - HTML, CSS, JavaScript</h2>
+                        <p>
+                        In this project, our aim is to build a modern tip calculator. The project's primary interface comprises a container labeled 
+                        "Tip Calculator" with two input fields: one for the bill amount and the other for the tip percentage. The tip calculator has 
+                        a modern design that is styled using CSS. We utilized JavaScript to obtain the values of the two input fields and 
+                        calculate the total amount based on these values.
+                        </p>
+                    </div>
+                    <a href="Tip Calculator Project details.html" class="btn">Project details</a>
+                </div>
+                <div class="project-info">
+                    <a href="age calculator.html">
+                        <img src="age calculator.jpg" width="px" height="250px" alt="age calculator project">
+                    </a>
+                    <div class="desc">
+                        <h2>Age calculator</h2>
+                        <p>
+                        In this project, we are going to create an age calculator. As you can see from the final version of the project,
+                        we have a container here with the title age calculator with an input of a date. If we click on the date input, 
+                        we can choose the date of our birthday. For example, if we choose a date in in 2022 and if we click now on 
+                        Calculate Age, you can see the age is calculated based on this date and saying your age is 21 years old.
+                        </p>
+                    </div>
+                    <a href="age calculator.html" class="btn">Project details</a>
+                </div>
+                <div class="project-info">
+                    <a href="stop watch.html">
+                        <img src="stop watch.jpg" width="px" alt="stop watch">
+                    </a>
+                    <div class="desc">
+                        <h2>Simple Stopwatch Project - HTML, CSS, JavaScript</h2>
+                        <p>
+                        Welcome to the Stopwatch Project! We will create a timer displayed at the top, along with three buttons - start, stop, 
+                        and reset. Clicking the START button will begin the timer. The STOP button will pause the timer using a JavaScript
+                        method called SetInterval, which can be cleared using clearInterval. The RESET button will reset the timer to zero. 
+                        If you click STOP and then START again, the timer will continue from the previously elapsed time. We'll start by 
+                        installing CSS for the buttons' design and hover effects, then use JavaScript to get the browser time, manipulate the 
+                        content, replace it with the calculated time, and provide the start, stop, and reset functionality. 
+                        </p> 
+                    </div>
+                    <a href="stop watch.html" class="btn">Projects details</a>
+                </div>
+            </div>
+            <div id="containers">
+                <div class="project-info">
+                    <a href="photo gallery.html">
+                        <img src="photo gallery.jpg" width="px" height="250px" alt="photo-gallery project">
+                    </a>
+                    <div class="desc">
+                        <h2>Photo Gallery Project - HTML, CSS, JavaScript</h2>
+                        <p>
+                        In this project, we're creating a photo gallery. We have an input field to choose the number 
+                        of photos to display, limited between zero and eleven. Clicking the "Get Photos" button fetches 
+                        that number of photos randomly from Unsplash using the Unsplash API. The gallery design is fully 
+                        responsive, with 3 images on larger screens, 2 on tablets, and 1 on mobile. We use Flexbox to make
+                        the images responsive. We'll learn about error handling, using APIs, and creating a responsive 
+                        design for a photo gallery.  
+                        </p>
+                    </div>
+                    <a href="photo gallery.html" class="btn">Projects details</a>
+                </div>
+                <div class="project-info">
+                    <a href="weather project.html">
+                        <img src="weather app.jpg" width="px" alt="weatherapp image">
+                    </a>
+                    <div class="desc">
+                        <h2>Weather App Project - HTML, CSS, JavaScript</h2>
+                        <p>
+                        We are embarking on a weather app creation project that will empower users to access weather information
+                        for any city. The process will involve the user inputting the city name into an input field and clicking a 
+                        button or pressing enter to retrieve the weather data. By leveraging JavaScript, we will connect to an open
+                        weather API to access relevant weather data for the specified city. To represent weather conditions, we will 
+                        use icons or images like a sun or a cloud. In handling errors while fetching data from the weather API, we will 
+                        employ the 'try and catch' technique. Our project will enhance our skills in working with APIs, handling errors 
+                        effectively, and creating user-friendly interfaces. 
+                        </p>
+                    </div>
+                    <a href="weather project.html" class="btn">Projects details</a>
+                </div>
+                <div class="project-info">
+                    <a href="password generator.html">
+                        <img src="password generator.jpg" width="" height="200px" alt="password generator">
+                    </a>
+                    <div class="desc">
+                        <h2 href="">Password Generator</h2>
+                        <p>
+                        We'll build a random password generator that generates a password using different characters. The final project
+                        will consist of a container titled "Random Password Generator" with an input field containing an icon for copying 
+                        the password and a button to generate it. When we click the button, a password is generated randomly. We can copy 
+                        it by clicking the icon. A notification will appear confirming that the password has been copied, and we can paste 
+                        it anywhere we want. This project will teach us how to create random passwords and copy text using a button in the 
+                        project. We'll also learn how to add a notification to the project. It's an intermediate to advanced project for 
+                        learning new skills.
+                        </p>
+                    </div>
+                    <a href="password generator.html" class="btn">Projects details</a>
+                </div>
+            </div>
+        </div>  
+    </section>
+          <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-form">
+            <fieldset>
+                <legend><h2>Contact Me</h2></legend>
+                <p>If you're interested in learning more about my work or exploring potential collaborations, I'd love to hear from you. 
+                   Please don't hesitate to reach out and let's start a conversation!
+                </p>
+                <form id="contactForm" action="#" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+
+            </fieldset>
+        </div>
+    </section>
+    <section>
+        <footer>
+            <h1>Footer</h1>
+            <p id="datetime"></p>
+            <script>
+                 // Get current date and time
+                var now = new Date();
+                var datetime = now.toLocaleString();
+    
+                 // Insert date and time into HTML
+                document.getElementById("datetime").innerHTML = datetime;
+            </script>
+            <div class="home-sci">
+                <a href="https://www.facebook.com/share/whG4sRZ9p6G8wQzN/?mibextid=qi2Omg"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://www.instagram.com/thejonathangoodnews?igsh=Zmp0bXJmc3V1MmJ3"><i class='bx bxl-instagram'></i></a>
+                <a href="https://wa.me/qr/PKAK5YLQQVIMD1"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="https://x.com/"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.linkedin.com/"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <h3> &copy; copyright 2024 Jonathan Egbe. All Right Reserved</h3>
+        </footer>
+    </section>
+        <!-- JavaScript -->
+        <script src="tests.js"></script>
+        <script>
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <script>
+            document.getElementById('contactForm').addEventListener('submit', function(event)
+            {
+            event.preventDefault();
+            // Perform form validation and submission
+            // Display success or error message
+            alert(' Form submitted successfully!');
+            });
+        </script>
+</body>
+</html>

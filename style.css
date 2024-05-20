@@ -1,0 +1,419 @@
+*{
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body, html {
+margin: auto;
+padding: auto;
+font-family: Arial, sans-serif;
+background-image: url('');
+background-size:contain;
+width: auto;
+}
+/* Navigation Bar */
+nav{
+  background-color: rgb(248, 236, 236);
+  height: 50px;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+}
+label.logo{
+  font-size: 35px;
+  color: rgb(11, 11, 67);
+  line-height: 50px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-top: 0;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: rgb(11, 11, 67);
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+nav ul li a:hover{
+  background: none;
+  color: rgb(235, 18, 105);
+}
+.checkbtn{
+  font-size: 30px;
+  color: rgb(11, 11, 67);
+  float: right;
+  line-height: 50px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+}
+.imgs{
+  align-content: center;
+  text-align: center;
+}
+.hero-content {
+  padding-top: 100px;
+}
+
+/* Hero Section */
+h2{
+  color: rgb(11, 11, 67);
+  font-weight: bold;
+}
+.hero {
+background-color: rgb(11, 11, 67);
+background-image: url(ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+background-size: cover;
+color: #fff;
+padding: 100px;
+padding-top: 100px;
+text-align: left;
+font-weight: 400;
+height: 700px;
+font-size: 25px;
+}
+/*button*/
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #87cefa;
+  border-radius: 40px;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 640; 
+}
+.btn:hover {
+  box-shadow: 0 0 5px cyan,
+  0 0 25px cyan, 0 0 50px cyan, 
+  0 0 100px cyan,0 0 200px cyan,
+  0 0 250px cyan,0 0 300px cyan ;
+}
+/* About Me Section */
+.about {
+padding: 50px;
+font-style: normal;
+font-size: 20px;
+background-color: rgb(248, 236, 236);
+}
+/*skill section*/
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  padding: auto;
+} 
+.skills {
+  text-align: left; /* Right-align text */
+  padding-top: 15px; /* Add top padding */
+  padding-bottom: 15px; /* Add bottom padding */
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white; /* White text color */
+  border: #1d5c45;
+  background-color: rgb(11, 11, 67);
+}
+
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;} 
+
+.skills-content li{
+  font-size: larger;
+}
+.skills-content h5{
+  font-size: larger;
+}
+.skills-content h4{
+  font-size: larger;
+}
+.skills-content h3{
+  font-size: larger;
+}
+/* Projects Section */
+.projects {
+padding: 30px 30px;
+justify-content: space-between;
+background-color: rgb(248, 236, 236);
+flex-wrap: wrap;
+}
+.project-grid {
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+gap: 20px;
+
+}
+#containers {
+  display: flex;
+  padding: 30px;
+  flex-basis: 100%;
+  margin-bottom: 0.5re;
+}
+#containers div {
+  align-items: center;
+  margin: 10px;
+  width: 450px;
+}
+div.desc {
+  padding-right: 40px;
+  padding-bottom: 20px;
+  color:  rgb(11, 11, 67);
+}
+.project-info {
+  background-color: white;
+  padding: 20px;
+ 
+}
+.projectdetails {
+  text-align: left; /* Right-align text */
+  padding-top: 15px; /* Add top padding */
+  padding-bottom: 15px; /* Add bottom padding */
+  padding-left: 150px;
+  padding-right: 150px;
+  color: white; /* White text color */
+  border: #1d5c45;
+  align-items: center;
+}
+h1{
+  font-weight: bold;
+}
+.project {
+  text-align: left; /* Right-align text */
+  padding-top: 30px; /* Add top padding */
+  padding-bottom: 15px; /* Add bottom padding */
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white; /* White text color */
+  border: #1d5c45;
+  background-color: white;
+}
+.project h2{
+  font-size: 40px;
+}
+.project p{
+  font-size: larger;
+}
+/* Contact Section */
+.contact {
+padding: 50px;
+}
+.contact-form {
+max-width: 400px;
+margin: 0 auto;
+}
+input, textarea, button {
+display: block;
+width: 100%;
+margin-bottom: 10px;
+padding: 10px;
+border: 1px solid #ccc;
+}
+button {
+background-color: #333;
+color: #fff;
+cursor: pointer;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: cyan; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    width: 55px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  
+footer {
+    background-color:rgb(11, 11, 67);
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    height: auto;
+    text-align: left;
+    align-content: center;
+}
+footer h2{
+ font-size: 35px;
+ padding: auto;
+ height: auto;
+ text-align: left;
+}
+footer h3{
+ font-size: auto;
+ text-align: center;
+}
+footer p{
+  font-size: 20px;
+}
+.home-sci a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #87cefa;
+  border-radius: 50%;
+  font-size: 25px;
+  text-align: center;
+  color: #87cefa;
+  text-decoration: none;
+  margin: 0;
+  padding: 15px;
+  padding-bottom: 10px;
+}
+.home-sci a:hover {
+  background: #87cefa;
+  color: black;
+  box-shadow: 0 0 20px #87cefa;
+}
+.column {
+  width: 100%;
+}
+  @media (max-width: 1100px ) {
+    .column {
+      width: 50%;
+    }
+    #containers {
+      display: block;
+      padding: 10px;
+      flex-basis: 100%;
+      margin-bottom: 0.5re;
+      padding-right: 5px;
+      
+    }
+    img {
+      width: 100%;
+    }
+    div.desc {
+      padding-right: 10px;
+      padding-bottom: 20px;
+      color:  rgb(11, 11, 67);
+      width: auto;
+      overflow: inherit;
+    }
+    .projects {
+      padding: 10px 10px;
+      justify-content: space-between;
+      background-color: rgb(248, 236, 236);
+      flex-wrap: wrap;
+      }
+      #containers div {
+        align-items: center;
+        margin: 10px;
+        width: auto;
+        align-items: center;
+      }
+      .projectdetails {
+        text-align: left; /* Right-align text */
+        padding-top: 15px; /* Add top padding */
+        padding-bottom: 15px; /* Add bottom padding */
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white; /* White text color */
+        border: #1d5c45;
+        align-items: center;
+      }
+      .project {
+        text-align: left; /* Right-align text */
+        padding-top: 15px; /* Add top padding */
+        padding-bottom: 15px; /* Add bottom padding */
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white; /* White text color */
+        border: #1d5c45;
+      }
+      .hero {
+        background-color: rgb(11, 11, 67);
+        background-image: url(ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+        background-size: cover;
+        color: #fff;
+        padding: 50px;
+        text-align: left;
+        font-weight: 400;
+        height: 700px;
+        font-size: 25px;
+        padding-top: 100px;
+        }
+  }
+  @media (max-width:952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+        line-height: 80px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+  }
+  @media (max-width:858px) {
+    .checkbtn{
+        display: block;
+        line-height: 80px;
+    }
+    nav{
+      background-color: rgb(248, 236, 236);
+      height: 80px;
+      width: 100%;
+      margin: 0;
+      position: fixed;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 90vh;
+        background:  rgb(11, 11, 67);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      line-height: 80px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a.active{
+        background: none;
+        color:white;
+    }
+    nav ul li a:hover{
+        background: none;
+        color: rgb(235, 18, 105);
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+  }
