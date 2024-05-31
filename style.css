@@ -103,8 +103,7 @@ font-size: 25px;
 .btn:hover {
   box-shadow: 0 0 5px cyan,
   0 0 25px cyan, 0 0 50px cyan, 
-  0 0 100px cyan,0 0 200px cyan,
-  0 0 250px cyan,0 0 300px cyan ;
+  0 0 100px cyan,0 0 200px cyan ;
 }
 /* About Me Section */
 .about {
@@ -136,7 +135,10 @@ background-color: rgb(248, 236, 236);
 
 .html {width: 90%; background-color: #04AA6D;} 
 .css {width: 80%; background-color: #2196F3;} 
-.js {width: 65%; background-color: #f44336;} 
+.js {width: 65%; background-color: #f44336;}
+.python {width: 40%; background-color: #94d316;} 
+.php {width: 20%; background-color: #ad5c1e;} 
+.java {width: 55%; background-color: #0d23cd;} 
 
 .skills-content li{
   font-size: larger;
@@ -164,14 +166,14 @@ gap: 20px;
 }
 #containers {
   display: flex;
-  padding: 30px;
+  padding: 20px;
   flex-basis: 100%;
   margin-bottom: 0.5re;
 }
 #containers div {
   align-items: center;
   margin: 10px;
-  width: 450px;
+  width: 430px;
 }
 div.desc {
   padding-right: 40px;
@@ -180,8 +182,8 @@ div.desc {
 }
 .project-info {
   background-color: white;
-  padding: 20px;
- 
+  padding: 10px;
+  border-radius: 20px;
 }
 .projectdetails {
   text-align: left; /* Right-align text */
@@ -312,11 +314,6 @@ footer p{
       padding-right: 5px;
       
     }
-     label.logo{
-        font-size: 30px;
-        padding-left: 50px;
-        line-height: 50px;
-    }
     img {
       width: 100%;
     }
@@ -397,7 +394,7 @@ footer p{
     ul{
         position: fixed;
         width: 100%;
-        height: 90vh;
+        height: 400px;
         background:  rgb(11, 11, 67);
         top: 80px;
         left: -100%;
