@@ -368,17 +368,17 @@ footer p{
         padding-top: 100px;
         }
         label.logo{
-        font-size: 15px;
-        padding-left: 25px;
-        
+        font-size: 20px;
+        padding-left: 30px;
+        line-height: 50px;
         font-weight: bolder;
     }
   }
   @media (max-width:952px) {
     label.logo{
-        font-size: 15px;
-        padding-left: 25px;
-        
+        font-size: 20px;
+        padding-left: 30px;
+        line-height: 50px;
         font-weight: bolder;
     }
     nav ul li a{
@@ -388,7 +388,7 @@ footer p{
   @media (max-width:858px) {
     .checkbtn{
         display: block;
-        line-height: 80px;
+        line-height: 50px;
     }
     nav{
       background-color: rgb(248, 236, 236);
@@ -409,7 +409,7 @@ footer p{
     }
     nav ul li{
       display: block;
-      line-height: 80px;
+      line-height: 50px;
     }
     nav ul li a{
         font-size: 20px;
