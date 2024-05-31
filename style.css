@@ -368,7 +368,7 @@ footer p{
         padding-top: 100px;
         }
         label.logo{
-        font-size: 18px;
+        font-size: 15px;
         padding-left: 30px;
         line-height: 80px;
         font-weight: bolder;
@@ -376,7 +376,7 @@ footer p{
   }
   @media (max-width:952px) {
     label.logo{
-        font-size: 18px;
+        font-size: 15px;
         padding-left: 30px;
         line-height: 80px;
         font-weight: bolder;
